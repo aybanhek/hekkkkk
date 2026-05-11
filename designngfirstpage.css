@@ -1,0 +1,40 @@
+body{ min-height: 100vh;
+    background: linear-gradient(to bottom right, #EAEAEA, #6a829b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+div{width: 350px;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 25px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{font-family:'Courier New', Courier, monospace;
+    color:lightslategray;
+    text-shadow: 0px 0px 10px gray;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+}
+
+button{background-color: #547A95;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover{background-color:#BBD5DA;}
+
